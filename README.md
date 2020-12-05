@@ -17,8 +17,8 @@ I've been working on Open Source libraries and frameworks for 12+ years, ~90% of
 * :pen: [solnic.codes](https://solnic.codes) - my official website/blog
 * :movie_camera: [My Youtube channel](https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ) - I've recently started publishing screencasts about Ruby and programming in general
 * :bird: [@\_solnic\_](https://twitter.com/_solnic_) - follow me on twitter for (mostly) programming-related stuff, it's also a really good way to reach out to me!
-* :camera_flash: [solnica.codes on Instagram](https://facebook.com/solnic.codes)
-* :blue_book: [solnica.codes on Facebook](https://instagram.com/solnic.codes)
+* :camera_flash: [solnica.codes on Instagram](https://instagram.com/solnic.codes)
+* :blue_book: [solnica.codes on Facebook](https://facebook.com/solnic.codes)
 
 ### :bulb: What I'm up to :bulb:
 
