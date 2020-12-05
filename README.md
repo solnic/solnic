@@ -8,18 +8,18 @@ This is the type of stuff I've been working on:
 * :point_right: [dry-rb](https://github.com/dry-rb) - a collection of next-generation Ruby libraries grouped under dry-rb organization that I've co-founded in 2015 and I'm still a member of the core team, actively working on pretty much everything that's there
 * :point_right: [hanami](https://github.com/hanami) - a modern Ruby webframework with a great architecture. We're working on 2.0.0 which will be amazing - stay tuned!
 
-### Ways to support
+###  :heart: :green_heart: :blue_heart: Ways to support :blue_heart: :green_heart: :heart: 
 
-I've been working on Open Source libraries and frameworks for 12+ years, ~90% of it was "in my spare time". Luckily, GitHub made it very easy for people and *especially* companies to support my work by [**becoming my GitHub Sponsor**](https://github.com/sponsors/solnic)! Thank you for your support! :heart: :green_heart: :blue_heart:
+I've been working on Open Source libraries and frameworks for 12+ years, ~90% of it was "in my spare time". Luckily, GitHub made it very easy for people and *especially* companies to support my work by [**becoming my GitHub Sponsor**](https://github.com/sponsors/solnic)! Thank you for your support!
 
-### Ways to connect and stay in touch
+### :sparkles: Ways to connect and stay in touch :sparkles:
 
 * :pen: [solnic.codes](https://solnic.codes) - my official website/blog
 * :movie_camera: [My Youtube channel](https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ) - I've recently started publishing screencasts about Ruby and programming in general
-* :bird: [@\_solnic\_](https://github.com/_solnic_) - follow me on twitter for (mostly) programming-related stuff, it's also a really good way to reach out to me! I love talking to y'all
-* :camera_flash: [solnica.codes on Instagram](https://instagram.com/solnic.codes)
+* :bird: [@\_solnic\_](https://twitter.com/_solnic_) - follow me on twitter for (mostly) programming-related stuff, it's also a really good way to reach out to me! I love talking to y'all
+* :camera_flash: [solnica.codes on Instagram](https://facebook.com/solnic.codes)
 * :blue_book: [solnica.codes on Facebook](https://instagram.com/solnic.codes)
 
-### What I'm up to
+### :bulb: What I'm up to :bulb:
 
 These days I'm in dry-rb maintenance mode and also preparing for rom-rb 6.0 work that will be focused on everything that Hanami 2.0.0 can benefit from.
