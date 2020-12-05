@@ -1,16 +1,25 @@
-### Hi there 👋
+### Hello! 👋
 
-<!--
-**solnic/solnic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm solnic and it's so nice to see you here! Even though I don't see you here, because you are reading this, and I'm writing this, so I can't really see you, but I can imagine somebody reading this. OK that was weird. Anyway - if you're here, which is awesome by the way, maybe you're interested in what I'm working on BUT there's not much here because I work under dry-rb, rom-rb and Hanami organizations on GitHub these days :smile:
 
-Here are some ideas to get you started:
+This is the type of stuff I've been working on:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* :point_right: [rom-rb](https://github.com/rom-rb/rom) - crazy-powerful data-mapping and persistence toolkit for Ruby! Yes! I've designed it and worked on its initial implementation back in 2014 and I've been working on it since then. Tired of Active Record? Wanna try something refreshing? YES!? Then give it a shot!
+* :point_right: [dry-rb](https://github.com/dry-rb) - a collection of next-generation Ruby libraries grouped under dry-rb organization that I've co-founded in 2015 and I'm still a member of the core team, actively working on pretty much everything that's there
+* :point_right: [hanami](https://github.com/hanami) - a modern Ruby webframework with a great architecture. We're working on 2.0.0 which will be amazing - stay tuned!
+
+### Ways to support
+
+I've been working on Open Source libraries and frameworks for 12+ years, ~90% of it was "in my spare time". Luckily, GitHub made it very easy for people and *especially* companies to support my work by [**becoming my GitHub Sponsor**](https://github.com/sponsors/solnic)! Thank you for your support! :heart: :green_heart: :blue_heart:
+
+### Ways to connect and stay in touch
+
+* :pen: [solnic.codes](https://solnic.codes) - my official website/blog
+* :movie_camera: [My Youtube channel](https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ) - I've recently started publishing screencasts about Ruby and programming in general
+* :bird: [@\_solnic\_](https://github.com/_solnic_) - follow me on twitter for (mostly) programming-related stuff, it's also a really good way to reach out to me! I love talking to y'all
+* :camera_flash: [solnica.codes on Instagram](https://instagram.com/solnic.codes)
+* :blue_book: [solnica.codes on Facebook](https://instagram.com/solnic.codes)
+
+### What I'm up to
+
+These days I'm in dry-rb maintenance mode and also preparing for rom-rb 6.0 work that will be focused on everything that Hanami 2.0.0 can benefit from.
