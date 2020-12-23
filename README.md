@@ -25,4 +25,4 @@ I've been working on Open Source libraries and frameworks for 12+ years, ~90% of
 
 ### :bulb: What I'm up to :bulb:
 
-These days I'm in dry-rb maintenance mode and also preparing for rom-rb 6.0 work that will be focused on everything that Hanami 2.0.0 can benefit from.
+These days I'm in dry-rb maintenance mode and also preparing for rom-rb 6.0 work that will be focused on everything that Hanami 2.0.0 can benefit from. I also started working on [sql-composer](https://github.com/sql-rb/sql-composer) lately.
