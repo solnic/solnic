@@ -1,6 +1,4 @@
-<blockquote><p lang="en" dir="ltr">📢 I&#39;m going back to consulting and currently looking for part-time gigs. I&#39;ll be available starting from April 1st. Not a joke.<br><br>Please get in touch via <a href="https://t.co/kMPUxCkXYk">https://t.co/kMPUxCkXYk</a></p>&mdash; ⚡️🤘🏻Piotr Solnica🤘🏻⚡️ (@_solnic_) <a href="https://twitter.com/_solnic_/status/1368998817371222021?ref_src=twsrc%5Etfw">March 8, 2021</a></blockquote>
-
-<hr/>
+[![solnics's github stats](https://github-readme-stats.vercel.app/api?theme=tokyonight&username=solnic&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Hello! 👋
 
