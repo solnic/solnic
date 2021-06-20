@@ -1,0 +1,90 @@
+baseurl: https://solnic.codes
+title: solnic.codes
+paginage: 5
+theme: PaperMod
+
+enableRobotsTXT: false
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-2573270-4
+disqusShortname: solnic-eu
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+permalinks:
+  posts: /:year/:month/:day/:title/
+
+taxonomies:
+  tags: tags
+  # categories: categories
+
+params:
+  author: Piotr Solnica
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
+  comments: true
+
+  profileMode:
+    enabled: true
+    title:
+    subtitle: "Hello! 👋"
+    imageUrl: "/assets/images/avatar.jpeg"
+    imageTitle: "Piotr Solnica"
+    imageWidth: 240
+    imageHeight: 240
+    buttons:
+      - name: "✍🏻 Posts"
+        url: "/posts"
+      - name: "🎥 Screencasts"
+        url: "https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ"
+      - name: "🎤 Talks"
+        url: "/talks"
+      - name: "💜 Open Source"
+        url: "/open-source"
+      - name: "💞 GitHub Sponsors"
+        url: "/open-source"
+      - name: "👨🏼‍💻 About"
+        url: "/about"
+      - name: "📧 Contact"
+        url: "/contact"
+
+  socialIcons:
+  - name: "GitHub"
+    url: "https://github.com/solnic"
+  - name: "Twitter"
+    url: "https://twitter.com/_solnic_"
+  - name: "YouTube"
+    url: "https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ"
+  - name: "Instagram"
+    url: "https://instagram.com/solnic.codes"
+  - name: "Facebook"
+    url: "https://facebook.com/solnic.codes"
+
+menu:
+  main:
+    - name: "Posts"
+      url: "/posts/"
+      weight: 1
+    - name: "Screencasts"
+      url: "https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ"
+      weight: 2
+    - name: "Talks"
+      url: "/talks/"
+      weight: 3
+    - name: "Open Source"
+      url: "/open-source/"
+      weight: 4
+    - name: "GitHub Sponsors"
+      url: "/github-sponsors/"
+      weight: 5
+    - name: "About"
+      url: "/about/"
+      weight: 6
+    - name: "Contact"
+      url: "/contact/"
+      weight: 7
