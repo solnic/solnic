@@ -37,15 +37,11 @@ You can become [my sponsor on GitHub](https://github.com/users/solnic/sponsorshi
 - [Kirill Zaitsev](https://github.com/Bugagazavr)
 - [Maarten Claes](https://www.mcls.io)
 - [Marco Roth](https://marcoroth.dev)
-- [Oleksii Leonov](https://oleksiileonov.com)
 - [roma](https://t.me/milushov)
 - [Rostislav Zhuravsky](https://zhuravsky.dev)
 - [Ryan Bigg](http://ryanbigg.com)
 - [Sahil Gadimbayli](https://www.sahilgadimbayli.com)
 - [Sebastian Wilgosz](https://hanamimastery.com)
-- [Thomas Klemm](https://github.com/thomasklemm)
-- [Vasily Kolesnikov](https://t.me/AtTheEdgeOfOikoumene)
 - [Vladimir Kalinkin](https://github.com/cylon-v)
+- [Wilson Silva](http://wilsonsilva.net)
 - [Yuriy Kharchenko](https://github.com/letmein)
-
-Questions? Concerns? [Drop me a line](https://solnic.codes/contact/)!
