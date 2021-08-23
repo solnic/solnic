@@ -40,8 +40,6 @@ params:
     buttons:
       - name: "✍🏻 Posts"
         url: "/posts"
-      - name: "🎥 Screencasts"
-        url: "https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ"
       - name: "🎤 Talks"
         url: "/talks"
       - name: "💜 Open Source"
@@ -58,33 +56,24 @@ params:
     url: "https://github.com/solnic"
   - name: "Twitter"
     url: "https://twitter.com/_solnic_"
-  - name: "YouTube"
-    url: "https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ"
-  - name: "Instagram"
-    url: "https://instagram.com/solnic.codes"
-  - name: "Facebook"
-    url: "https://facebook.com/solnic.codes"
 
 menu:
   main:
     - name: "Posts"
       url: "/posts/"
       weight: 1
-    - name: "Screencasts"
-      url: "https://www.youtube.com/channel/UCeRgtx8eE4WXqGAeeDQyGYQ"
-      weight: 2
     - name: "Talks"
       url: "/talks/"
-      weight: 3
+      weight: 2
     - name: "Open Source"
       url: "/open-source/"
-      weight: 4
+      weight: 3
     - name: "GitHub Sponsors"
       url: "/github-sponsors/"
-      weight: 5
+      weight: 4
     - name: "About"
       url: "/about/"
-      weight: 6
+      weight: 5
     - name: "Contact"
       url: "/contact/"
-      weight: 7
+      weight: 6
