@@ -42,6 +42,7 @@ You can become [my sponsor on GitHub](https://github.com/users/solnic/sponsorshi
 - [Ryan Bigg](http://ryanbigg.com)
 - [Sahil Gadimbayli](https://www.sahilgadimbayli.com)
 - [Sebastian Wilgosz](https://hanamimastery.com)
+- [Thomas Klemm](https://github.com/thomasklemm)
 - [Vladimir Kalinkin](https://github.com/cylon-v)
 - [Wilson Silva](http://wilsonsilva.net)
 - [Yuriy Kharchenko](https://github.com/letmein)
