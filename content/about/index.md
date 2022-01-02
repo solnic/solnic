@@ -49,4 +49,4 @@ In 2017 I've been chosen as [the final nominee](http://www.ruby.or.jp/en/news/20
 ## Training & Certifications
 
 - AWS Certified Solutions Architect - Associate certificate
-- AWS Training & Certification - Certicate of Completion
+- AWS Training & Certification - Certificate of Completion
