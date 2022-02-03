@@ -50,7 +50,7 @@ When you have a library, a ruby gem, which adds such a significant amount of new
 - You **must be aware** that the methods that **you are adding** to **your own classes in your application's code** could potentially cause conflicts with ActiveSupport
 - It is **a very bad idea** to build other libraries, that also monkey-patch core classes, because they can cause conflicts as well
 
-Some time ago, we had a lot of ruby gems that would also rely on monkey-patching. We even had a full-stack framework that was meant to compete with Rails. It was called Merb and it also had something like ActiveSupport, it was called extlib. As you probably guessed - it caused conflicts with ActiveSupport so it wasn't really feasible to use both libraries in the same codebase. Merb and Rails "merged" into a Rails 3 though, and that's how we don't have "an extlib problem" anymore, because the library is gone. Over time, many Ruby developers working on various gems have learned the downsides of monkey-patching and simply stopped doing it. RSpec is our primary example here - a limited and problematic DSL based on monkey-patching was turned into a beautiful, composable DSL which we still have in RSpec.
+Some time ago, we had a lot of ruby gems that would also rely on monkey-patching. We even had a full-stack framework that was meant to compete with Rails. It was called Merb and it also had something like ActiveSupport, it was called extlib. As you probably guessed - it caused conflicts with ActiveSupport so it wasn't really feasible to use both libraries in the same codebase. Merb and Rails "merged" into Rails 3 though, and that's how we don't have "an extlib problem" anymore, because the library is gone. Over time, many Ruby developers working on various gems have learned the downsides of monkey-patching and simply stopped doing it. RSpec is our primary example here - a limited and problematic DSL based on monkey-patching was turned into a beautiful, composable DSL which we still have in RSpec.
 
 Unfortunately, even though majority of the gems stopped relying on monkey-patches, we still have ActiveSupport just because it's such a fundemental part of Rails. After all, the framework is written in ActiveSupport Ruby dialect!
 
@@ -84,7 +84,7 @@ I often mention that monkey-patching isn't even a sound technical solution, simp
 
 Composability is a very powerful technique. In Ruby, it can be easily achieved by simply using objects. In functional language, you can simply compose functions. What does it mean to compose functionality? It just means that you take functionality X, and functionality Y, and you turn it into functionality Z which combines the two in such a way, that X and Y are hidden (which is called encapsulation, but I'll get to this part later).
 
-Here's why this doesn't work so well in case of ActiveSupport (and monkey-patching in general). Let's say you have a number and you want to format it, ActiveSupport provides a `to_fromatted_s` method implemented as a Numeric core extension:
+Here's why this doesn't work so well in case of ActiveSupport (and monkey-patching in general). Let's say you have a number and you want to format it, ActiveSupport provides a `to_formatted_s` method implemented as a Numeric core extension:
 
 ```ruby
 987654321.to_formatted_s(:phone, area_code: true)
