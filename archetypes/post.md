@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 tags: ["first"]
 draft: true
-author: "Piotr Solnica"
+author: "Peter Solnica"
 showToc: true
 TocOpen: false
 hidemeta: false

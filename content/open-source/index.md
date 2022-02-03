@@ -1,7 +1,7 @@
 ---
 title: "Open Source"
 date: 2021-05-09T12:26:49+02:00
-author: "Piotr Solnica"
+author: "Peter Solnica"
 showToc: false
 TocOpen: false
 hidemeta: true

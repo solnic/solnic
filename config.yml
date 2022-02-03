@@ -23,7 +23,7 @@ taxonomies:
   # categories: categories
 
 params:
-  author: Piotr Solnica
+  author: Peter Solnica
   ShowReadingTime: true
   ShowCodeCopyButtons: true
   ShowShareButtons: true
@@ -34,7 +34,7 @@ params:
     title:
     subtitle: "Hello! 👋"
     imageUrl: "/assets/images/avatar.jpeg"
-    imageTitle: "Piotr Solnica"
+    imageTitle: "Peter Solnica"
     imageWidth: 240
     imageHeight: 240
     buttons:

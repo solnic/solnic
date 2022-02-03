@@ -1,7 +1,7 @@
 ---
 title: "Talks"
 date: 2021-05-09T12:30:56+02:00
-author: "Piotr Solnica"
+author: "Peter Solnica"
 showToc: false
 TocOpen: false
 hidemeta: true

@@ -1,7 +1,7 @@
 ---
 title: "Github Sponsors"
 date: 2021-05-09T12:29:12+02:00
-author: "Piotr Solnica"
+author: "Peter Solnica"
 showToc: false
 TocOpen: false
 hidemeta: true

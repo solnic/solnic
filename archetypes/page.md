@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author: "Piotr Solnica"
+author: "Peter Solnica"
 showToc: false
 TocOpen: false
 hidemeta: true

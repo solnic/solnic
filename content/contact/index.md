@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2021-05-11T10:13:55+02:00
-author: "Piotr Solnica"
+author: "Peter Solnica"
 showToc: false
 TocOpen: false
 hidemeta: true
