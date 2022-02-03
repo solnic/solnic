@@ -126,6 +126,8 @@ Numbers are primitive values, they shouldn't be coupled to details like phone fo
 
 This is a simple consequence of putting things in places where they don't belong. Monkey-patches like `to_formatted_s` are honestly just helpers, helpers attached to core classes. They are only needed in very specific places; however, they are provided globally due to the nature of monkey-patching! Every core object has these methods after all. This, in turn, makes it possible to reach out for them anywhere in your code base.
 
+> ! Please also see my comment [here](https://solnic.codes/2022/02/02/rails-is-not-written-in-ruby/#comment-5719695778)
+
 ### Naming conflicts
 
 This is probably the most obvious drawback. If you throw encapsulation out of the window and assume that it's OK to monkey-patch, then it's easy to imagine a situation where two people come up with the same method name, implement them as a monkey-patch in the same class and now you have a problem.
