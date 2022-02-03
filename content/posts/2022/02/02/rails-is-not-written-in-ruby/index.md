@@ -142,7 +142,7 @@ How can you achieve composability? You use object composition. It can be as simp
 
 Do take a look at RSpec's evolution. How it went from `"foo".should eql("foo")` to `expect("foo").to eql("foo")`. I don't think anybody misses the old syntax. I'm sure there are more examples of such transitions, let me know if you remember them.
 
-If you think ActiveSupport's time helpers cannot be replaced, then take a look at [time_math2](https://github.com/zverok/time_math2) gem. There is a significant difference between composable time calculations vs a bunch of time helper methods attached to integers.
+If you think ActiveSupport's time helpers cannot be replaced, then take a look at [time_calc](https://github.com/zverok/time_calc) gem. There is a significant difference between composable time calculations vs a bunch of time helper methods attached to integers.
 
 # To be continued!
 
