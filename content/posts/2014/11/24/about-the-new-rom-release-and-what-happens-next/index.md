@@ -43,4 +43,4 @@ The biggest focus is on SQL support simply because I use it at work and I’ve g
 
 ROM integrates very nicely with [Virtus](https://github.com/solnic/virtus) which means it’s already a very powerful mapping solution that’s why I don’t plan to spend much time on the mapping part. Before 1.0.0 I also want to introduce a new interface for data manipulation (create/insert/delete operations) which is the only big addition that’s pending. There will be a couple of small but significant new features focusing on making it simpler to build complex queries too as right now it’s still too barebone.
 
-But today please give it a try, I really appreciate your feedback! Ping me on [twitter](https://twitter.com/_solnic_) or [gitter](https://gitter.im/rom-rb/chat) if you have questions :)
+But today please give it a try, I really appreciate your feedback! Ping me on [twitter](https://twitter.com/solnic29a) or [gitter](https://gitter.im/rom-rb/chat) if you have questions :)

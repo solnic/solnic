@@ -48,7 +48,7 @@ This is something I'm personally very excited about because I'm looking forward 
 
 This time I haven't published a roadmap on our forum, and instead I simply reported a bunch of issues and assigned other existing issues to [the 6.0 milestone](https://github.com/rom-rb/rom/milestone/11). Please treat this as the roadmap, but I should mention that things _may change_ as we move forward with the work.
 
-One of the biggest priorities for 6.0.0 is to eliminate any rough edges and improve UX - that's why it would be great if you could tell me about your experience with rom, especially if you found it too hard to use for some reason. Feel free to leave a comment under this post or [ping me on twitter](https://twitter.com/_solnic_) or start a thread on [our discussion forum](https://discourse.rom-rb.org/) or [chat](https://rom-rb.zulipchat.com/).
+One of the biggest priorities for 6.0.0 is to eliminate any rough edges and improve UX - that's why it would be great if you could tell me about your experience with rom, especially if you found it too hard to use for some reason. Feel free to leave a comment under this post or [ping me on twitter](https://twitter.com/solnic29a) or start a thread on [our discussion forum](https://discourse.rom-rb.org/) or [chat](https://rom-rb.zulipchat.com/).
 
 ## YouTube Channel
 
