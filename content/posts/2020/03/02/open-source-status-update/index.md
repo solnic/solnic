@@ -33,7 +33,7 @@ In December I finished porting [transproc](https://github.com/solnic/transproc) 
 
 ### GitHub Actions and Automation
 
-If you [follow me](https://twitter.com/_solnic_) on Twitter you probably know how excited I am about GitHub Actions. I started adopting them in dry-rb and then rom-rb organizations on GitHub as soon as we got access. I started working on adding workflows to dry-rb in early October and since then things progressed quickly!
+If you [follow me](https://twitter.com/solnic29a) on Twitter you probably know how excited I am about GitHub Actions. I started adopting them in dry-rb and then rom-rb organizations on GitHub as soon as we got access. I started working on adding workflows to dry-rb in early October and since then things progressed quickly!
 
 Right now both dry-rb and rom-rb use GitHub Actions to automate the following things:
 
