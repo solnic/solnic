@@ -1,6 +1,9 @@
 ---
-title: "Rails is not written in Ruby"
+title: "Rails and its Ruby dialect"
 date: 2022-02-02
+aliases:
+  - /2022/02/02/rails-is-not-written-in-ruby/
+  - /2022/02/02/rails-and-its-ruby-dialect/
 categories:
   - "blog"
 tags:
@@ -8,6 +11,8 @@ tags:
  - "rails"
  - "community"
 ---
+
+> This was originally titled "Rails is not written in Ruby" but based on feedback, I decided to change the title.
 
 I'm born and raised in Kraków, a beautiful city in Poland, maybe you've heard about it, maybe you've even been here. In Poland we speak Polish, which is a really difficult language, it's actually considered one of the top-10 most difficult languages to learn in the world. In Poland, just like in many other countries, there are regions where dialects are used rather than "the pure" form of the language, and so in my city, we have our own dialect. It's not *too different* from Polish, but we have our special words, and a special way of saying certain words. For example, we say "czy", which means "three", even though the correct form is "trzy", but we're like "that's too hard" so we keep it simple, "czydzieści czy" (33) instead of "trzydzieści trzy". The rest of Poland is making fun of us because of this kind of stuff, but whatever, it's our dialect - this is how we like to speak.
 
