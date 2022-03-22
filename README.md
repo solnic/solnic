@@ -1,5 +1,11 @@
-You can now support my Open Source work by
-[becoming a GitHub Sponsor](https://github.com/sponsors/solnic)!
+# 📢 Professional OSS Services
+
+I'm bootstrapping a new company called [pro-rb.org](https://pro-rb.org) which will be offerring professional OSS services and consulting. Check it out!
+
+# 💖 How to support my work via GitHub Sponsors
+
+- [Become a Hanami Sponsor](https://github.com/sponsors/hanami)
+- [Become a GitHub Sponsor](https://github.com/sponsors/solnic)
 
 ## About
 
