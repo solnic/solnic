@@ -74,6 +74,8 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 5
+    - name: "🆕 pro-rb"
+      url: "https://pro-rb.org"
     - name: "Contact"
       url: "/contact/"
       weight: 6
