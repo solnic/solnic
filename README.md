@@ -1,11 +1,12 @@
-# 📢 Professional OSS Services
-
-I'm bootstrapping a new company called [pro-rb.org](https://pro-rb.org) which will be offerring professional OSS services and consulting. Check it out!
-
 # 💖 How to support my work via GitHub Sponsors
 
-- [Become a Hanami Sponsor](https://github.com/sponsors/hanami)
-- [Become a GitHub Sponsor](https://github.com/sponsors/solnic)
+- [Become Hanami Sponsor](https://github.com/sponsors/hanami)
+- [Become my Sponsor](https://github.com/sponsors/solnic)
+
+# Where to find me
+
+- 💌 [My newsletter with articles and videos](https://www.solnic.dev)
+- 🦣 <a rel="me" href="https://ruby.social/@solnic">ruby.social</a>
 
 ## About
 
