@@ -1,4 +1,4 @@
-# 💖 How to support my work via GitHub Sponsors
+# 💖 How to support my Open Source work
 
 - [Become Hanami Sponsor](https://github.com/sponsors/hanami)
 - [Become my Sponsor](https://github.com/sponsors/solnic)
