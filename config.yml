@@ -48,8 +48,6 @@ params:
         url: "/open-source"
       - name: "👨🏼‍💻 About"
         url: "/about"
-      - name: "📧 Contact"
-        url: "/contact"
 
   socialIcons:
   - name: "GitHub"
@@ -76,8 +74,3 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 5
-    - name: "🆕 pro-rb"
-      url: "https://pro-rb.org"
-    - name: "Contact"
-      url: "/contact/"
-      weight: 6
