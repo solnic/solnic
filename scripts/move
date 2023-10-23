@@ -1,0 +1,24 @@
+#!/usr/env/bin ruby
+
+require "byebug"
+require "fileutils"
+require "pathname"
+require "front_matter_parser"
+require "yaml"
+
+root = Pathname(__dir__).join("content").realpath
+files = Dir.glob("#{root}/posts/**/*.md")
+
+# files.each do |file|
+#   FileUtils.cp(file, "#{file}.backup")
+#   FileUtils.cp(file, "#{root}/#{File.basename(file)}")
+# end
+
+files.each do |file|
+  parsed = FrontMatterParser::Parser.parse_file(file)
+  parsed.front_matter.update('aliases' => [
+    "/posts/#{Pathname(file).dirname.basename.to_s}"
+  ])
+  parsed.content
+  File.write(file, parsed.front_matter.to_yaml + "\n---\n\n" + parsed.content)
+end
