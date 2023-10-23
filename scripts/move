@@ -1,24 +1,40 @@
-#!/usr/env/bin ruby
+#!/usr/bin/env ruby
 
 require "byebug"
 require "fileutils"
 require "pathname"
 require "front_matter_parser"
 require "yaml"
+require "date"
 
-root = Pathname(__dir__).join("content").realpath
-files = Dir.glob("#{root}/posts/**/*.md")
+root = Pathname(__dir__).join("../content").realpath
+files = Dir.glob("#{root}/posts/**/*.md").map(&Pathname.method(:new))
 
-# files.each do |file|
-#   FileUtils.cp(file, "#{file}.backup")
-#   FileUtils.cp(file, "#{root}/#{File.basename(file)}")
-# end
+files.each do |file_path|
+  begin
+    source_file = FrontMatterParser::Parser.parse_file(file_path.to_s)
+    source_date = (date = source_file.front_matter["date"]).is_a?(String) ? DateTime.parse(date) : date
+    source_title = file_path.dirname.basename
+    source_slug = "/#{source_date.strftime("%Y/%m/%d")}/#{source_title}"
 
-files.each do |file|
-  parsed = FrontMatterParser::Parser.parse_file(file)
-  parsed.front_matter.update('aliases' => [
-    "/posts/#{Pathname(file).dirname.basename.to_s}"
-  ])
-  parsed.content
-  File.write(file, parsed.front_matter.to_yaml + "\n---\n\n" + parsed.content)
+    new_front_matter = source_file.front_matter.merge(
+      "slug" => "#{source_title}",
+      "tags" => ["archive"],
+      "aliases" => [
+        source_slug
+      ]
+    )
+    new_path = root.join("archive/#{source_title}/index.md")
+    new_content = "#{new_front_matter.to_yaml}\n---\n#{source_file.content}"
+
+    puts "#{source_slug} => #{new_path}"
+
+    FileUtils.rm(file_path)
+    FileUtils.mkdir_p(new_path.dirname)
+    File.open(new_path, 'w') { |f| f.write(new_content) }
+  rescue => e
+    puts e.inspect
+    puts source_file.front_matter
+    raise e
+  end
 end
