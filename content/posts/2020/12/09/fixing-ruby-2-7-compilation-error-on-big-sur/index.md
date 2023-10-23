@@ -1,7 +1,11 @@
 ---
 title: "Fixing Ruby 2.7 compilation error on Big Sur"
 date: "2020-12-09"
-categories: 
+tags:
+  - "ruby"
+  - "macos"
+  - "big-sur"
+categories:
   - "blog"
 ---
 
