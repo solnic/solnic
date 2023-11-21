@@ -5,8 +5,8 @@
 
 # Where to find me
 
-- 💌 [My newsletter with articles and videos](https://www.solnic.dev)
-- 🦣 <a rel="me" href="https://ruby.social/@solnic">ruby.social</a>
+- 💌 [My newsletter with articles and videos](https://solnic.dev)
+- 🦣 <a rel="me" href="https://hachyderm.io/@solnic">ruby.social</a>
 
 ## About
 
