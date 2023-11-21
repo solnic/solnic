@@ -30,7 +30,7 @@ My main contributions include:
 - [dry-system](https://github.com/dry-rb/dry-system) - a modern way of organizing Ruby applications using dependency injection as the architectural foundation
 - [dry-auto\_inject](https://github.com/dry-rb/dry-auto_inject) - container-agnostic auto-injection abstraction
 - [dry-events](https://github.com/dry-rb/dry-events) - a simple pub/sub solution
-- [dry-monitor](https://github.com/dry-rb/dry-events) - a set of abstractions that help with application monitoring
+- [dry-monitor](https://github.com/dry-rb/dry-monitor) - a set of abstractions that help with application monitoring
 
 Make sure to check out our [official website](http://dry-rb.org/)!
 
