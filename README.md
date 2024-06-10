@@ -1,16 +1,23 @@
 # 💖 How to support my Open Source work
 
-- [Become Hanami Sponsor](https://github.com/sponsors/hanami)
 - [Become my Sponsor](https://github.com/sponsors/solnic)
 
 # Where to find me
 
-- 💌 [My newsletter with articles and videos](https://solnic.dev)
-- 🦣 <a rel="me" href="https://hachyderm.io/@solnic">ruby.social</a>
+- 📝 [My blog with articles and videos](https://solnic.dev)
+- 🦣 <a rel="me" href="https://hachyderm.io/@solnic">Mastodon</a>
+- X [x.com/solnic_dev](https://x.com/solnic_dev)
+- 🐙 [GitHub](https://github.com/solnic)
 
 ## About
 
 I started contributing to Open Source projects in 2008 and over time I created, contributed to and helped **with over 100 libraries and frameworks**. This page lists the most notable of my contributions.
+
+## Elixir Drops 💦
+
+My latest project that brings some of the dry-rb goodies to the Elixir ecosystem.
+
+https://solnic.dev/introducing-elixir-drops
 
 ## Hanami
 
@@ -30,7 +37,7 @@ My main contributions include:
 - [dry-system](https://github.com/dry-rb/dry-system) - a modern way of organizing Ruby applications using dependency injection as the architectural foundation
 - [dry-auto\_inject](https://github.com/dry-rb/dry-auto_inject) - container-agnostic auto-injection abstraction
 - [dry-events](https://github.com/dry-rb/dry-events) - a simple pub/sub solution
-- [dry-monitor](https://github.com/dry-rb/dry-monitor) - a set of abstractions that help with application monitoring
+- [dry-monitor](https://github.com/dry-rb/dry-events) - a set of abstractions that help with application monitoring
 
 Make sure to check out our [official website](http://dry-rb.org/)!
 
