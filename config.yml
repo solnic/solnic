@@ -10,6 +10,18 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+
+services:
+  rss:
+    limit: 20 # Limit the number of posts in the RSS feed
+
 markup:
   goldmark:
     renderer:
@@ -35,6 +47,7 @@ params:
   ShowCodeCopyButtons: true
   ShowShareButtons: true
   comments: true
+  ShowFullTextinRSS: true
 
   profileMode:
     enabled: true
