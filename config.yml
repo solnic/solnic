@@ -15,13 +15,14 @@ outputs:
     - HTML
   section:
     - HTML
-  posts:
+  taxonomy:
     - HTML
-    - RSS
+  term:
+    - HTML
 
 services:
   rss:
-    limit: 20 # Limit the number of posts in the RSS feed
+    limit: 20
 
 markup:
   goldmark:
