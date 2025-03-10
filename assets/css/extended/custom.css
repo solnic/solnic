@@ -333,3 +333,100 @@ body.list .main {
     gap: 0.75rem;
   }
 }
+
+/* Newsletter styles */
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+  padding: 0 var(--gap);
+}
+
+.newsletter-container .formkit-form {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Post tags in header */
+.post-header .post-tags {
+  margin: 1rem 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-header .post-tags li {
+  margin: 0;
+}
+
+.post-header .post-tags a {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background: var(--tertiary);
+  border-radius: var(--radius);
+  color: var(--secondary);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.post-header .post-tags a:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+/* Share buttons styles */
+.share-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  color: var(--secondary);
+}
+
+.share-btn:hover {
+  color: var(--primary);
+  transform: translateY(-1px);
+}
+
+.share-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.share-btn span {
+  display: none;
+}
+
+/* Platform-specific colors on hover */
+.share-btn.bluesky:hover {
+  color: #0085ff;
+}
+
+.share-btn.mastodon:hover {
+  color: #6364FF;
+}
+
+.share-btn.linkedin:hover {
+  color: #0077b5;
+}
+
+.share-btn.reddit:hover {
+  color: #ff4500;
+}
+
+.share-btn.hackernews:hover {
+  color: #ff6600;
+}
