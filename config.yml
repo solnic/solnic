@@ -13,8 +13,9 @@ buildExpired: false
 outputs:
   home:
     - HTML
-    - RSS
   section:
+    - HTML
+  posts:
     - HTML
     - RSS
 
