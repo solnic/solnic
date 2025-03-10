@@ -6,7 +6,7 @@ showToc: false
 TocOpen: false
 hidemeta: true
 comments: false
-canonicalURL: "https://solnic.codes/open-source"
+canonicalURL: "https://solnic.dev/open-source"
 disableShare: true
 disableHLJS: true
 hideSummary: true

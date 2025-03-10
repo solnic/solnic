@@ -6,7 +6,7 @@ showToc: false
 TocOpen: false
 hidemeta: true
 comments: false
-canonicalURL: "https://solnic.codes/{{ replace .Name "-" " " | title }}"
+canonicalURL: "https://solnic.dev/{{ replace .Name "-" " " | title }}"
 disableShare: true
 disableHLJS: true
 hideSummary: true

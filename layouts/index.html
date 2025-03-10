@@ -1,0 +1,67 @@
+{{- define "main" }}
+
+<div class="home-layout">
+  <!-- Left column: Profile section -->
+  <div class="profile-section">
+    {{- if site.Params.profileMode.imageUrl }}
+    <img src="{{ site.Params.profileMode.imageUrl }}"
+      alt="{{ site.Params.profileMode.imageTitle | default " Profile" }}"
+      class="profile-image"
+      width="{{ site.Params.profileMode.imageWidth }}"
+      height="{{ site.Params.profileMode.imageHeight }}">
+    {{- end }}
+
+    <h1 class="profile-title">{{ site.Params.profileMode.imageTitle }}</h1>
+
+    {{- with site.Params.profileMode.subtitle }}
+    <div class="profile-subtitle">{{ . }}</div>
+    {{- end }}
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      {{- range site.Params.socialIcons }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}">
+        {{ partial "svg.html" . }}
+      </a>
+      {{- end }}
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="profile-buttons">
+      {{- range site.Params.profileMode.buttons }}
+      <a class="button" href="{{ .url }}">{{ .name }}</a>
+      {{- end }}
+    </div>
+  </div>
+
+  <!-- Right column: Latest Posts -->
+  <div class="latest-posts">
+    <h2>Latest Posts</h2>
+    <div class="posts-list">
+      {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+      {{- range first 3 $pages }}
+      <article class="post-entry">
+        <header class="entry-header">
+          <h3>{{ .Title }}</h3>
+          <time class="entry-date">{{ .Date.Format "January 2, 2006" }}</time>
+        </header>
+        <div class="entry-content">
+          <p>{{ .Summary | truncate 150 }}</p>
+        </div>
+        <footer class="entry-footer">
+          {{- if .Params.tags }}
+          <div class="entry-tags">
+            {{- range .Params.tags }}
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+            {{- end }}
+          </div>
+          {{- end }}
+        </footer>
+        <a class="entry-link" aria-label="post link to {{ .Title }}" href="{{ .Permalink }}"></a>
+      </article>
+      {{- end }}
+    </div>
+  </div>
+</div>
+
+{{- end }}

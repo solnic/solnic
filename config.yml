@@ -1,5 +1,5 @@
 baseurl: https://solnic.dev
-title: solnic.codes
+title: solnic.dev
 paginage: 5
 theme: PaperMod
 
@@ -7,6 +7,11 @@ enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 googleAnalytics: UA-2573270-4
 disqusShortname: solnic-eu
@@ -16,7 +21,7 @@ minify:
   minifyOutput: true
 
 permalinks:
-  posts: /:year/:month/:day/:title/
+  posts: /posts/:slug/
 
 taxonomies:
   tags: tags
@@ -32,8 +37,8 @@ params:
   profileMode:
     enabled: true
     title:
-    subtitle: "Hello! 👋"
-    imageUrl: "/assets/images/avatar.jpeg"
+    subtitle: "Indie hacker and Open Source maintainer"
+    imageUrl: "/assets/images/avatar.png"
     imageTitle: "Peter Solnica"
     imageWidth: 240
     imageHeight: 240
@@ -45,17 +50,19 @@ params:
       - name: "💜 Open Source"
         url: "/open-source"
       - name: "💞 GitHub Sponsors"
-        url: "/open-source"
+        url: "/github-sponsors"
       - name: "👨🏼‍💻 About"
         url: "/about"
 
   socialIcons:
-  - name: "GitHub"
-    url: "https://github.com/solnic"
-  - name: "Mastodon"
-    url: "https://ruby.social/@solnic"
-  - name: "Twitter"
-    url: "https://twitter.com/solnic29a"
+    - name: "GitHub"
+      url: "https://github.com/solnic"
+    - name: "BlueSky"
+      url: "https://bsky.app/profile/solnic.dev"
+    - name: "Mastodon"
+      url: "https://hachyderm.io/@solnic"
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/solnic"
 
 menu:
   main:
