@@ -13,7 +13,6 @@ buildExpired: false
 outputs:
   home:
     - HTML
-    - RSS
   section:
     - HTML
   taxonomy:
