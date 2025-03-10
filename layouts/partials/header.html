@@ -90,8 +90,24 @@
         {{- $label_text -}}
       </a>
       {{- end }}
-      <span class="logo-switches">
-        {{- if (not .Site.Params.disableThemeToggle) }}
+    </div>
+    {{- $currentPage := . }}
+    <ul id="menu">
+      {{- range .Site.Menus.main }}
+      {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+      {{- $page_url:= $currentPage.Permalink | absLangURL }}
+      {{- $is_search := eq ($.Site.GetPage .KeyName).Layout `search` }}
+      <li>
+        <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+          {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+          <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+            {{- .Name -}}
+          </span>
+        </a>
+      </li>
+      {{- end }}
+      {{- if (not .Site.Params.disableThemeToggle) }}
+      <li class="theme-toggle">
         <button id="theme-toggle" accesskey="t" title="(Alt + T)">
           <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -112,22 +128,6 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
         </button>
-        {{- end }}
-      </span>
-    </div>
-    {{- $currentPage := . }}
-    <ul id="menu">
-      {{- range .Site.Menus.main }}
-      {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-      {{- $page_url:= $currentPage.Permalink | absLangURL }}
-      {{- $is_search := eq ($.Site.GetPage .KeyName).Layout `search` }}
-      <li>
-        <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-          {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-          <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-            {{- .Name -}}
-          </span>
-        </a>
       </li>
       {{- end }}
     </ul>
