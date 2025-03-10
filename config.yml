@@ -1,5 +1,7 @@
 baseurl: https://solnic.dev
 title: solnic.dev
+languageCode: en-us
+defaultContentLanguage: en
 paginage: 5
 theme: PaperMod
 
