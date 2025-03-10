@@ -9,6 +9,30 @@ body.list .main {
   margin-inline-end: auto;
 }
 
+/* Move theme toggle to the right */
+.logo-switches {
+  margin-left: auto;
+  order: 2;
+}
+
+#menu {
+  order: 1;
+  margin-right: 0;
+}
+
+.logo {
+  margin-right: 0;
+}
+
+button#theme-toggle {
+  padding: 0;
+  margin-left: var(--gap);
+  border: none;
+  background: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
 .header {
   padding: var(--gap);
 }
