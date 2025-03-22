@@ -6,7 +6,7 @@
 
 - 📝 [My blog with articles and videos](https://solnic.dev)
 - 🦣 <a rel="me" href="https://hachyderm.io/@solnic">Mastodon</a>
-- X [x.com/solnic_dev](https://x.com/solnic_dev)
+- 🦋 [Bluesky](https://bsky.app/profile/solnic.dev)
 - 🐙 [GitHub](https://github.com/solnic)
 
 ## About
